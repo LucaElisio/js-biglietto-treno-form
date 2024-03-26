@@ -32,6 +32,20 @@ sendBtnElem.addEventListener("click", function() {
 
     // Calcolo prezzo base
     const priceBasic = priceKm * userKmValue; //number
-    console.log(priceBasic);
+    console.log("prezzo base ", priceBasic);
+
+    // Imposto condizione per definire lo sconto
+    if (userAgeValue < 18) {
+        discount = 0.20;
+    } else if (userAgeValue > 65) {
+        discount = 0.60
+    }
+    
+    console.log("sconto applicato ", discount);
+
+    // Calcolo sconto totale
+    const totalDiscount = priceBasic * discount;
+    console.log("sconto totale ", totalDiscount);
+    
 
 })

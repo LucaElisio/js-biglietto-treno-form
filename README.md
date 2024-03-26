@@ -46,7 +46,7 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
         - [x] Calcolo prezzo finale (prezzo di base - sconto applicato)
 
 3. Output:
-    - [ ] Stampo i km, l'età, il prezzo base, lo sconto applicato e il prezzo finale.
+    - [x] Stampo i km, l'età, il prezzo base, lo sconto applicato e il prezzo finale.
 
 
 

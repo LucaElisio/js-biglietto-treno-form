@@ -29,15 +29,15 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 ## JS
 
 1. Definizione variabili globali:
-    - [ ] Prezzo al km = 0.21
-    - [ ] Sconto = 0
-    - [ ] Bottone Calcolo 
+    - [x] Prezzo al km = 0.21
+    - [x] Sconto = 0
+    - [x] Bottone Calcolo 
 
 2. Al click del bottone:
 
     1. Raccolta dati:
-        - [ ] Salvo in variabile il valore dei km
-        - [ ] Salvo in variabile il valore dell'età
+        - [x] Salvo in variabile il valore dei km
+        - [x] Salvo in variabile il valore dell'età
     
     2. Esecuzione logica:
         - [ ] Calcolo il prezzo di base (prezzo al km * km)

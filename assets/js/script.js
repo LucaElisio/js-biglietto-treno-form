@@ -8,3 +8,23 @@ let discount = 0; //number
 // Trovo bottone nella pagina
 const sendBtnElem = document.getElementById("send-btn"); //object | null
 
+// Aggiungo un evento al click del bottone
+sendBtnElem.addEventListener("click", function() {
+
+    //* RACCOLTA DATI
+
+    // Trovo input dei km nella pagina
+    const userKmElem = document.getElementById("userkm");
+    console.log(userKmElem);
+    // Salvo in variabile il valore dell'input
+    const userKmValue = userKmElem.value;
+    console.log(userKmValue);
+
+    // Trovo input dell'età nella pagina
+    const userAgeElem = document.getElementById("userage");
+    console.log(userAgeElem);
+    // Salvo in variabile il valore dell'età
+    const userAgeValue = userAgeElem.value;
+    console.log(userAgeValue);
+
+})

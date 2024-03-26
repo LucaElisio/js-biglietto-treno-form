@@ -52,4 +52,27 @@ sendBtnElem.addEventListener("click", function() {
     console.log("prezzo finale ", finalPrice);
     
 
+    //* OUTPUT
+
+    // Stampo in pagina i km
+    const resultKmElem = document.querySelector("#result p:nth-child(1)");
+    resultKmElem.innerHTML += userKmValue;
+
+    // Stampo in pagina l'età
+    const resultAgeElem = document.querySelector("#result p:nth-child(2)");
+    resultAgeElem.innerHTML += userAgeValue;
+
+    // Stampo in pagina il prezzo base
+    const resultPriceBasicElem = document.querySelector("#result p:nth-child(3)");
+    resultPriceBasicElem.innerHTML += priceBasic;
+
+    // Stampo in pagina lo sconto applicato
+    const resultTotalDiscountElem = document.querySelector("#result p:nth-child(4)");
+    resultTotalDiscountElem.innerHTML += totalDiscount;
+
+    // Stampo in pagina il prezzo finale
+    const resultFinalPriceElem = document.querySelector("#result p:nth-child(5)");
+    resultFinalPriceElem.innerHTML += finalPrice; 
+    
+
 })

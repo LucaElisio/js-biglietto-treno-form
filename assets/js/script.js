@@ -27,4 +27,11 @@ sendBtnElem.addEventListener("click", function() {
     const userAgeValue = parseInt(userAgeElem.value);
     console.log(userAgeValue);
 
+
+    //* ESECUZIONE LOGICA
+
+    // Calcolo prezzo base
+    const priceBasic = priceKm * userKmValue; //number
+    console.log(priceBasic);
+
 })

@@ -31,18 +31,21 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 1. Definizione variabili globali:
     - [ ] Prezzo al km = 0.21
     - [ ] Sconto = 0
+    - [ ] Bottone Calcolo 
 
-2. Raccolta dati:
-    - [ ] Chiedo all'utente il numero di km da percorrere
-    - [ ] Chiedo all'utente l'età
+2. Al click del bottone:
 
-3. Esecuzione logica:
-    - [ ] Calcolo il prezzo di base (prezzo al km * km)
-    - [ ] Se (età < 18) sconto = 0.20, altrimenti se (età > 65) sconto = 0.60
-    - [ ] Calcolo sconto totale (prezzo di base * sconto)
-    - [ ] Calcolo prezzo finale (prezzo di base - sconto applicato)
+    1. Raccolta dati:
+        - [ ] Salvo in variabile il valore dei km
+        - [ ] Salvo in variabile il valore dell'età
+    
+    2. Esecuzione logica:
+        - [ ] Calcolo il prezzo di base (prezzo al km * km)
+        - [ ] Se (età < 18) sconto = 0.20, altrimenti se (età > 65) sconto = 0.60
+        - [ ] Calcolo sconto totale (prezzo di base * sconto)
+        - [ ] Calcolo prezzo finale (prezzo di base - sconto applicato)
 
-4. Output:
+3. Output:
     - [ ] Stampo i km, l'età, il prezzo base, lo sconto applicato e il prezzo finale.
 
 

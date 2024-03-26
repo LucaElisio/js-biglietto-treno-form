@@ -22,9 +22,9 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 
 ## HTML
 1. Inserimento tag
-    - [ ] Input Number (km)
-    - [ ] Input Number (età)
-    - [ ] Bottone
+    - [x] Input Number (km)
+    - [x] Input Number (età)
+    - [x] Bottone
 
 ## JS
 

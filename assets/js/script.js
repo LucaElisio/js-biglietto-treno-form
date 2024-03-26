@@ -17,14 +17,14 @@ sendBtnElem.addEventListener("click", function() {
     const userKmElem = document.getElementById("userkm");
     console.log(userKmElem);
     // Salvo in variabile il valore dell'input
-    const userKmValue = userKmElem.value;
+    const userKmValue = parseInt(userKmElem.value);
     console.log(userKmValue);
 
     // Trovo input dell'età nella pagina
     const userAgeElem = document.getElementById("userage");
     console.log(userAgeElem);
     // Salvo in variabile il valore dell'età
-    const userAgeValue = userAgeElem.value;
+    const userAgeValue = parseInt(userAgeElem.value);
     console.log(userAgeValue);
 
 })
